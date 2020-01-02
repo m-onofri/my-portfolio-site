@@ -1,0 +1,207 @@
+#projects_title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-row-gap: 5px;
+    margin: auto;
+  }
+
+#project_1 .inbox {
+  background: url("../dist/img/15_puzzle.jpg") center;
+}
+
+#project_2 .inbox {
+  background: url("../dist/img/random_quotes_php.jpg") center;
+}
+
+#project_3 .inbox {
+  background: url("../dist/img/math_quiz.jpg") center;
+}
+
+#project_4 .inbox {
+  background: url("../dist/img/learning_journal.jpg") center;
+}
+
+#project_5 .inbox {
+  background: url("../dist/img/phrase_hunter.jpg") center;
+}
+
+#project_6 .inbox {
+  background: url("../dist/img/slim_blog.jpg") center;
+}
+
+#project_7 .inbox {
+  background: url("../dist/img/php_unit_test.jpg") center;
+}
+
+#project_8 .inbox {
+  background: url("../dist/img/todo_api.jpg") center;
+}
+
+#project_9 .inbox {
+  background: url("../dist/img/user_auth.jpg") center;
+}
+
+#project_10 .inbox {
+  background: url("../dist/img/rem_site.jpg") center;
+}
+
+#project_11 .inbox {
+  background: url("../dist/img/landing_page.jpg") center;
+}
+
+#project_12 .inbox {
+  background: url("../dist/img/survey_form.jpg") center;
+}
+
+#project_13 .inbox {
+  background: url("../dist/img/tech_doc_page.jpg") center;
+}
+
+#project_14 .inbox {
+  background: url("../dist/img/random_quotes_react.jpg") center;
+}
+
+#project_15 .inbox {
+  background: url("../dist/img/drum_machine.jpg") center;
+}
+
+#project_16 .inbox {
+  background: url("../dist/img/markdown_previewer.jpg") center;
+}
+
+#project_17 .inbox {
+  background: url("../dist/img/js_calculator.jpg") center;
+}
+
+#project_18 .inbox {
+  background: url("../dist/img/bar_chart.jpg") center;
+}
+
+#project_19 .inbox {
+  background: url("../dist/img/scatter_plot.jpg") center;
+}
+
+#project_20 .inbox {
+  background: url("../dist/img/heat_map.jpg") center;
+}
+
+#project_21 .inbox {
+  background: url("../dist/img/choropleth_map.jpg") center;
+}
+
+#project_22 .inbox {
+  background: url("../dist/img/tree_map.jpg") center;
+}
+
+#project_23 .inbox {
+  background: url("../dist/img/pomodoro_clock.jpg") center;
+}
+
+#lang {
+  min-width: 300px;
+  display: block;
+  margin: 2rem auto;
+}
+  
+.box {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  position: relative;
+}
+  
+.inbox {
+  display: block;
+  width:80%;
+  margin: auto;
+  height: 150px;
+  margin-top: 10px;
+  background-color: green;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title, p, h6 {
+  padding: 0 10%;
+  margin: 0;
+}
+
+.title {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+.tag {
+  text-align: left;
+}
+
+.tag h6 {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: orange;
+  margin-left: 2rem;
+  border-radius: 5px;
+}
+
+.description {
+  margin-bottom: 4rem;
+}
+
+.buttons {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: rgb(218, 218, 218);
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+#all_pjs {
+  margin: 0 auto 2rem;
+  display: block;
+  width: 170px;
+  text-align: center;
+  background-color: crimson;
+  color: #fff;
+}
+
+#about_me {
+  background-color: rgb(204, 204, 204);
+  margin: 0;
+  padding: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 44, 0.801);
+}
+
+#my_projects {
+  padding: 30px;
+}
+
+footer {
+  background-color: rgba(0, 0, 44, 0.801);
+}
+

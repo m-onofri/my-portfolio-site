@@ -29,10 +29,10 @@ const MainContentIndex = () => {
     );
     return (
         <>
-        <div id="about_me">
+        {/* <div id="about_me">
             <p>Ipsum Blaster antaran jedi mind trick kirk serenity apollo. R2-D2 mccoy paradox machine jabba husker. Doctor who fodder worf carbonite gorram bantha hypercube hutt andorian jethrik enterprise. Dalek sullust yoda edosian jawa force bantha kirk felgercarb laser. Landspeeder jar jar romulan troi gravitron x-wing cloud city. Light saber a new hope xindi mace windu starfleet dalek sullust greedo grand moff tarkin dagobah kirk exterminate andorian ba’ku tribble. Lando carbonite maul, ferengi reman spock luke.</p>
             <Link id="all_pjs" className="button" to="/about">More About Me</Link>
-        </div>
+        </div> */}
         <div className="container">
             <div className="row" id="my_projects">
                 <h1 id="projects_title">My Projects</h1>

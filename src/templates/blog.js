@@ -18,18 +18,18 @@ import PostContent from '../components/blog/postContent';
 //     }
 // `
 
-const BlogPage = ({data}) => 
-    <Layout>
-        <PageHeaderBlog 
-            title={data.markdownRemark.frontmatter.title}
-            subtitle={data.markdownRemark.frontmatter.subtitle}
-            date={data.markdownRemark.frontmatter.date}
-            author={data.markdownRemark.frontmatter.author}
-        />
-        <PostContent 
-            html={data.markdownRemark.html}
-        />
-        <hr></hr>
-    </Layout>
+// const BlogPage = ({data}) => 
+//     <Layout>
+//         <PageHeaderBlog 
+//             title={data.markdownRemark.frontmatter.title}
+//             subtitle={data.markdownRemark.frontmatter.subtitle}
+//             date={data.markdownRemark.frontmatter.date}
+//             author={data.markdownRemark.frontmatter.author}
+//         />
+//         <PostContent 
+//             html={data.markdownRemark.html}
+//         />
+//         <hr></hr>
+//     </Layout>
 
-export default BlogPage;
+// export default BlogPage;

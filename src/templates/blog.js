@@ -1,8 +1,8 @@
-import React from 'react';
-// import { graphql } from 'gatsby';
-import Layout from '../components/layout';
-import PageHeaderBlog from '../components/blog/pageHeaderBlog';
-import PostContent from '../components/blog/postContent';
+// import React from 'react';
+// // import { graphql } from 'gatsby';
+// import Layout from '../components/layout';
+// import PageHeaderBlog from '../components/blog/pageHeaderBlog';
+// import PostContent from '../components/blog/postContent';
 
 // export const query = graphql`
 //     query($slug: String!) {

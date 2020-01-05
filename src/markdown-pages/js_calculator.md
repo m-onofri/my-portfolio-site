@@ -2,9 +2,9 @@
 tags: "React"
 image: "project_17"
 title: "JS Calculator"
-description: "This is a project from freeCodeCamp. The goal of this project is to create a markdown previewer. In the textarea on the left you can insert yor markdown sample, and in the textarea on the right you get the html version. The app is realized in Codepen using React."
-site_url: "https://codepen.io/m_ono/full/pGpXQp"
-gitHub_url: "https://codepen.io/m_ono/pen/pGpXQp"
+description: "In this project I created a calculator that is able to perform the basic arithmetic operations (addition, subtraction, division and multiplication). This project is from the freeCodeCamp course and it's based on the React library."
+site_url: "https://m-onofri.github.io/js-calculator/"
+gitHub_url: "https://github.com/m-onofri/js-calculator"
 ---
 
 #Hello!

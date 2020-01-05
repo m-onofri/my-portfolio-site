@@ -9,7 +9,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-row-gap: 5px;
+    grid-gap: 1px;
     margin: auto;
   }
 
@@ -116,8 +116,9 @@
   text-align: center;
   font-size: 1rem;
   padding: 1rem 0;
-  margin-bottom: 2rem;
   position: relative;
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(221, 221, 221);
 }
   
 .inbox {
@@ -141,6 +142,8 @@
 .title {
   margin: 1rem 0;
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 p {
@@ -175,7 +178,8 @@ p {
 
 .button {
   padding: 0.5rem;
-  background-color: rgb(218, 218, 218);
+  background-color:forestgreen;
+  color: #fff;
   border-radius: 5px;
   margin-right: 1rem;
 }

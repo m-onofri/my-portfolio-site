@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectButtons from './index/projectButtons';
+import {Link} from 'gatsby';
 
 function setColorTag(tag) {
     switch (tag) {
@@ -20,7 +21,7 @@ function setColorTag(tag) {
     }
 }
 
-const ProjectList = ({tags, image, title, description, site_url, gitHub_url}) =>
+const ProjectList = ({tags, image, title, description, site_url, gitHub_url, slug}) =>
     <>
         <div className="box" id={image}>
             <div className="tag">
@@ -29,8 +30,8 @@ const ProjectList = ({tags, image, title, description, site_url, gitHub_url}) =>
                 >{tags}</h6>
             </div>
             <div className="inbox"></div>
-            <h2 className="title">{title}</h2>
-            <p className="description">{description}</p>
+            <h2 className="title"><Link to={`/blog/${slug}`}>{title}</Link></h2>
+            {/* <p className="description">{description}</p> */}
             <ProjectButtons 
                 site_url={site_url}
                 gitHub_url={gitHub_url}

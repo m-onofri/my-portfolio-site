@@ -121,7 +121,7 @@
   border: 1px solid rgb(221, 221, 221);
 }
   
-.inbox {
+.box .inbox {
   display: block;
   width:80%;
   margin: auto;
@@ -134,27 +134,30 @@
   background-size: cover;
 }
 
-.title, p, h6 {
+.box .title, 
+.box p, 
+.box h6 {
   padding: 0 10%;
   margin: 0;
 }
 
-.title {
+.box .title {
   margin: 1rem 0;
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 6rem;
 }
 
-p {
+.box p {
   text-align: left;
 }
 
-.tag {
+.box .tag {
   text-align: left;
 }
 
-.tag h6 {
+.box .tag h6 {
   display: inline-block;
   padding: 0.5rem;
   background-color: orange;
@@ -162,9 +165,9 @@ p {
   border-radius: 5px;
 }
 
-.description {
+/* .description {
   margin-bottom: 4rem;
-}
+} */
 
 .buttons {
   width: 80%;
@@ -178,7 +181,7 @@ p {
 
 .button {
   padding: 0.5rem;
-  background-color:forestgreen;
+  background-color:gray;
   color: #fff;
   border-radius: 5px;
   margin-right: 1rem;

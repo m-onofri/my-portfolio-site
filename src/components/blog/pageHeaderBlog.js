@@ -10,8 +10,8 @@ const PageHeaderBlog = ({title, subtitle, date, author}) =>
                 <div className="col-lg-8 col-md-10 mx-auto">
                     <div className="post-heading">
                         <h1>{title}</h1>
-                        <h2 className="subheading">{subtitle}</h2>
-                        <span className="meta">Posted by <Link to="/about">{author}</Link> on {date}</span>
+                        {/* <h2 className="subheading">{subtitle}</h2>
+                        <span className="meta">Posted by <Link to="/about">{author}</Link> on {date}</span> */}
                     </div>
                 </div>
             </div>

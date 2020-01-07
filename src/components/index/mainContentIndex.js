@@ -8,7 +8,7 @@ const MainContentIndex = () => {
     const data = useStaticQuery(graphql`
         query {
             allMarkdownRemark {
-                edges {
+                edges { 
                     node {
                         frontmatter {
                             tags
@@ -17,6 +17,9 @@ const MainContentIndex = () => {
                             description
                             site_url
                             gitHub_url
+                        }
+                        fields {
+                            slug
                         }
                         html
                     }
@@ -42,6 +45,7 @@ const MainContentIndex = () => {
                         description={i.node.frontmatter.description}
                         site_url={i.node.frontmatter.site_url}
                         gitHub_url={i.node.frontmatter.gitHub_url}
+                        slug={i.node.fields.slug}
                     />   
                     )}
                 </div>

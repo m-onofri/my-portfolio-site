@@ -193,14 +193,6 @@ p {
   color: #fff;
 }
 
-#about_me {
-  background-color: rgb(204, 204, 204);
-  margin: 0;
-  padding: 30px;
-  color: #fff;
-  background-color: rgba(0, 0, 44, 0.801);
-}
-
 #my_projects {
   padding: 30px;
 }

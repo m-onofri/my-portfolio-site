@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import {Link} from 'gatsby';
 
 const MainContentIndex = () => {
-    const bestProjects = ["project_1", "project_11", "project_23", "project_10", "project_6"];
+    const bestProjects = ["project_1", "project_11", "project_23", "project_10", "project_6", "project_24"];
     const data = useStaticQuery(graphql`
         query {
             allMarkdownRemark {
@@ -35,7 +35,6 @@ const MainContentIndex = () => {
         <div className="container">
             <div className="row" id="my_projects">
                 <h1 id="projects_title">My Projects</h1>
-                <p>This is a personal site I put together mainly to keep track of what I learned and what I produced so far.</p>
                 <div id="container">
                     {filteredData.map(i => 
                     <ProjectList
@@ -51,6 +50,29 @@ const MainContentIndex = () => {
                 </div>
             </div>
             <Link id="all_pjs" className="button" to="/projects">See All Projects</Link>
+        </div>
+        <div className="container">
+            <div className="row" id="my_projects">
+                <h1 id="projects_title">Work in progress</h1>
+                <div id="container">
+                    <ProjectList
+                        tags="React"
+                        image=""
+                        title="Minessweeper"
+                        description="Description"
+                        site_url="null"
+                        gitHub_url="https://github.com/m-onofri/minesweeper"
+                    />
+                    <ProjectList
+                        tags="Symfony"
+                        image=""
+                        title="Personal blog page with Symfony"
+                        description="Description"
+                        site_url="null"
+                        gitHub_url="#"
+                    />
+                </div>  
+            </div>
         </div>
         </>
     )

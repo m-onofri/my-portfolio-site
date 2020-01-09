@@ -1,5 +1,4 @@
 import React from 'react'
-//import contentImage from '../../dist/img/post-sample-image.jpg'
 
 const PostContent = ({html}) =>
     <article>

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'gatsby';
-import homeBg from '../../dist/img/home-bg.jpg'
+import homeBg from '../../dist/img/home-bg.jpg' 
 
 const IndexHeader = () =>
     <header className="masthead" style={{backgroundImage: `url(${homeBg})`}}>
@@ -12,6 +12,7 @@ const IndexHeader = () =>
                         <h1>Hi I'm Manuele</h1>
                         <span className="subheading">I'm a junior developer and programmer based in Rimini, Italy.</span>
                         <span className="subheading">I've built web applications using PHP, Node.js and React and have good foundation in web design and development.</span>
+                        <span className="subheading">This is a personal site I put together mainly to keep track of what I learned and what I produced so far.</span>
                         <Link id="all_pjs" className="button" to="/about">More About Me</Link>
                     </div>
                 </div>

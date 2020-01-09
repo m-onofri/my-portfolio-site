@@ -13,8 +13,10 @@
     margin: auto;
   }
 
-#project_1 .inbox {
-  background: url("../dist/img/15_puzzle.jpg") center;
+#project_1 .inbox,
+.masthead.project_1 {
+  background: url("../dist/img/15_puzzle.jpg") center no-repeat;
+  background-size: cover;
 }
 
 #project_2 .inbox {
@@ -33,8 +35,10 @@
   background: url("../dist/img/phrase_hunter.jpg") center;
 }
 
-#project_6 .inbox {
-  background: url("../dist/img/slim_blog.jpg") center;
+#project_6 .inbox,
+.masthead.project_6 {
+  background: url("../dist/img/slim_blog.jpg") center no-repeat;
+  background-size: contain;
 }
 
 #project_7 .inbox {
@@ -49,12 +53,16 @@
   background: url("../dist/img/user_auth.jpg") center;
 }
 
-#project_10 .inbox {
-  background: url("../dist/img/rem_site.jpg") center;
+#project_10 .inbox,
+.masthead.project_10 {
+  background: url("../dist/img/rem_site.jpg") center no-repeat;
+  background-size: cover;
 }
 
-#project_11 .inbox {
-  background: url("../dist/img/landing_page.jpg") center;
+#project_11 .inbox,
+.masthead.project_11 {
+  background: url("../dist/img/landing_page.jpg") center no-repeat;
+  background-size: cover;
 }
 
 #project_12 .inbox {
@@ -101,8 +109,16 @@
   background: url("../dist/img/tree_map.jpg") center;
 }
 
-#project_23 .inbox {
-  background: url("../dist/img/pomodoro_clock.jpg") center;
+#project_23 .inbox,
+.masthead.project_23 {
+  background: url("../dist/img/pomodoro_clock.jpg") center no-repeat;
+  background-size: cover;
+}
+
+#project_24 .inbox,
+.masthead.project_24 {
+  background: url("../dist/img/pricelist_generator.jpg") center no-repeat;
+  background-size: cover;
 }
 
 #lang {
@@ -180,11 +196,37 @@
 }
 
 .button {
-  padding: 0.5rem;
+  position: relative;
+  padding-top: 0.4rem;
+  width: 45px;
+  height: 45px;
   background-color:gray;
   color: #fff;
   border-radius: 5px;
   margin-right: 1rem;
+}
+
+/* Tooltip text */
+.button .tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 0;
+  border-radius: 6px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -40px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.button:hover .tooltiptext {
+  visibility: visible;
 }
 
 #all_pjs {

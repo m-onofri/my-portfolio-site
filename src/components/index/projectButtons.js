@@ -10,7 +10,10 @@ const ProjectButtons = ({site_url, gitHub_url}) => {
                     href={`${gitHub_url}`} 
                     target="_blank"
                     rel="noopener noreferrer"
-                >GitHub Page</a>
+                >
+                    <i class="fab fa-github-square fa-2x"></i>
+                    <span class="tooltiptext">GitHub</span>
+                    </a>
             </div>
         );
     } else {
@@ -21,13 +24,19 @@ const ProjectButtons = ({site_url, gitHub_url}) => {
                     href={`${site_url}`} 
                     target="_blank"
                     rel="noopener noreferrer"
-                >Live Sample</a>
+                >
+                    <i class="fas fa-desktop fa-2x"></i>
+                    <span class="tooltiptext">Live Demo</span>
+                </a>
                 <a 
                     className="button"
                     href={`${gitHub_url}`} 
                     target="_blank"
                     rel="noopener noreferrer"
-                >GitHub Page</a>
+                >
+                    <i class="fab fa-github-square fa-2x"></i>
+                    <span class="tooltiptext">GitHub</span>
+                </a>
             </div>
         );    
     }  

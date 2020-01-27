@@ -9,7 +9,7 @@ const ProjectsHeader = () =>
                 <div className="col-lg-8 col-md-10 mx-auto">
                     <div className="page-heading">
                         <h1>My Projects</h1>
-                        <span className="subheading">This is what I did.</span>
+                        <span className="subheading">This is what I do.</span>
                     </div>
                 </div>
             </div>

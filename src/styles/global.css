@@ -121,6 +121,24 @@
   background-size: cover;
 }
 
+#project_25 .inbox,
+.masthead.project_25 {
+  background: url("../dist/img/my-portfolio.jpg") center no-repeat;
+  background-size: cover;
+}
+
+#project_26 .inbox,
+.masthead.project_26 {
+  background: url("../dist/img/minesweeper.jpg") center no-repeat;
+  background-size: cover;
+}
+
+#project_27 .inbox,
+.masthead.project_27 {
+  background: url("../dist/img/todo_app.jpg") center no-repeat;
+  background-size: cover;
+}
+
 #lang {
   min-width: 300px;
   display: block;
@@ -244,5 +262,10 @@
 
 footer {
   background-color: rgba(0, 0, 44, 0.801);
+}
+
+#aboutMe,
+#contactPage {
+  padding: 2rem;
 }
 

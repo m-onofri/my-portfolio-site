@@ -15,10 +15,10 @@ const Footer = () =>
                             </a>
                         </li>
                         <li className="list-inline-item">
-                            <a href="https://www.facebook.com/manuele.onofri.5">
+                            <a href="https://www.linkedin.com/in/manuele-onofri-31068738/">
                             <span className="fa-stack fa-lg">
                             <i className="fas fa-circle fa-stack-2x"></i>
-                            <i className="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                            <i className="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
                             </span>
                             </a>
                         </li>
@@ -31,7 +31,7 @@ const Footer = () =>
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+                    <p class="copyright">Manuele Onofri &copy; 2020 - crafted with Gatsby and deployed on Netlify</p>
                 </div>
             </div>
         </div>
